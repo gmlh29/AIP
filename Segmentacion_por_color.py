@@ -32,7 +32,6 @@ cv2.drawContours(image, contours, -1, (0, 255, 0), 2)
 # Mostrar la imagen con los contornos y el número de regiones segmentadas
 cv2.putText(image, "Cantidad: " + str(count), (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 2)
 
-0
 cv2.imshow('Imagen Original | Programador: Gerardo Lee', image)
 cv2.imshow('Segmentada | Programador: Gerardo Lee', segmented_image)
 cv2.waitKey(0)
